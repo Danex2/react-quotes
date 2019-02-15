@@ -18,7 +18,6 @@ class QuoteContainer extends Component {
     const { quotes } = this.state;
     let randQuote = quotes[Math.floor(Math.random() * quotes.length)];
     this.setState({ quote: randQuote });
-    console.log(this.state.quote);
   };
   render() {
     const { quote } = this.state;
