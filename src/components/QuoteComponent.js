@@ -14,7 +14,7 @@ function QuoteComponent({ quote, ...props }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-twitter " />
+          <i className="fab fa-twitter " />
         </a>
         <a
           className="links"
@@ -26,10 +26,10 @@ function QuoteComponent({ quote, ...props }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-tumblr" />
+          <i className="fab fa-tumblr" />
         </a>
         <button className="generator" onClick={props.generate}>
-          <i class="fas fa-redo-alt" />
+          <i className="fas fa-redo-alt" />
         </button>
       </div>
     </React.Fragment>

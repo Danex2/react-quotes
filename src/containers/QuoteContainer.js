@@ -8,7 +8,7 @@ class QuoteContainer extends Component {
     quote: {}
   };
   componentDidMount() {
-    fetch("http://quotes.stormconsultancy.co.uk/popular.json")
+    fetch("https://quotes.stormconsultancy.co.uk/popular.json")
       .then(res => res.json())
       .then(quotes => {
         this.setState({ quotes }, this.generate);
